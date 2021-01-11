@@ -28,6 +28,7 @@
     position: absolute;
     left: 15px;
     bottom: 15px;
+    animation: notificationani 3s ease-in-out infinite;
 }
 .nav__notificationdot{
     background-color: tomato;
@@ -39,4 +40,15 @@
     position: absolute;
     bottom: 25px;
     left: 30px;
+}
+@keyframes notificationani{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: none;
+    }
 }
